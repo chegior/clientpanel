@@ -39,8 +39,6 @@ export class AddClientComponent implements OnInit {
    if (!valid){
      //show error throw FlashMEssages
      this.flashMessage.show("Please fill out the form correctly",{cssClass:'alert-danger',timeout:4000});
-     
-     
 
    }else{
     this.flashMessage.show("Client has been added, Succesfully", {cssClass:'alert-success',timeout:4000});

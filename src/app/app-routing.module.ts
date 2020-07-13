@@ -16,7 +16,7 @@ const routes:Routes = [
   {path:'register',component: RegisterComponent},
   {path:'client/add',component: AddClientComponent},
   {path:'client/edit/:id',component: EditClientComponent},
-  {path:'client/id',component: ClientDetailsComponent},
+  {path:'client/:id',component: ClientDetailsComponent},
   {path:'settings',component: SettingsComponent},
   {path:'**',component: NotFoundComponent}
 ];
