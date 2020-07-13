@@ -39,4 +39,10 @@ export class ClientDetailsComponent implements OnInit {
 
   }
 
+  updateBalance(){
+    this.clientService.updateClient(this.client);
+    this.flashMessage.show('Balance Updated',{cssClass:'alert-succes',timeout: 4000});
+    this.router.navigate(['/']);
+  }
+
 }
