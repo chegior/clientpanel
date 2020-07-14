@@ -33,7 +33,7 @@ export class NavbarComponent implements OnInit {
       }
     });
 
-    this.showRegister = this.settingService.getSettings().allowRgistration;
+    this.showRegister = this.settingService.getSettings().allowRegistration;
   }
 
   onLogoutCLick(){
